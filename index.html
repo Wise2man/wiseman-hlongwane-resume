@@ -3,132 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wiseman Hlongwane Resume</title>
+    <title>Wiseman Hlongwane - Resume</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
             color: #333;
-            transition: background-color 0.3s, color 0.3s;
         }
-        h1, h2, h3 {
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
             color: #2c3e50;
         }
-        p {
-            line-height: 1.5;
+        .contact-info {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .section {
+            margin-bottom: 15px;
+        }
+        .section h2 {
+            background-color: #f4f4f4;
+            padding: 5px 10px;
+            color: #2c3e50;
+            font-size: 16px;
+            border-left: 4px solid #3498db;
+            margin: 10px 0;
+        }
+        .subsection {
+            margin-bottom: 10px;
+        }
+        .subsection h3 {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #2c3e50;
+        }
+        .subsection h4 {
+            margin: 5px 0;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+        .subsection p, .subsection ul {
+            margin: 5px 0;
+            font-size: 12px;
         }
         ul {
-            margin: 0;
             padding-left: 20px;
         }
-        button {
-            padding: 10px;
-            margin: 20px 0;
-            border: none;
-            background-color: #3498db;
-            color: white;
-            cursor: pointer;
-            border-radius: 5px;
+        .two-column {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
         }
-        button:hover {
-            background-color: #2980b9;
+        .column {
+            width: 48%;
+        }
+        .page-break {
+            page-break-after: always;
         }
     </style>
 </head>
 <body>
-    <h1>Wiseman Hlongwane</h1>
-    <p>Contact: 0817651826</p>
-    <p>Email: <a href="mailto:hlongwanewize@gmail.com">hlongwanewize@gmail.com</a></p>
-    <p>LinkedIn Profile: <a href="https://www.linkedin.com/in/wiseman-hlongwane-24a2b6179">www.linkedin.com/in/wiseman-hlongwane-24a2b6179</a></p>
-    
-    <h2>Personal Introduction</h2>
-    <p>A highly skilled and dedicated professional with a strong background in software testing and engineering support. Experienced in performing regression testing, developing automation scripts, and investigating technical issues. Proficient in utilizing Python for data extraction, analysis, Git for version control, and various technologies such as Control-m, Murex software, Mxtest, and AWS services. Committed to delivering high-quality results and collaborating effectively within cross-functional teams.</p>
-    
-    <h2>Education</h2>
-    <ul>
-        <li>Tshwane University of Technology (2015-2019) - Computer Systems Engineering</li>
-        <li>Hivuyeriwile High School (2008-2013) - Matric 2013</li>
-    </ul>
-    
-    <h2>Work Experience</h2>
-    <h3>Software Tester / Engineering Support</h3>
-    <p><strong>Rand Merchant Bank (RMB), July 2023 - Present</strong></p>
-    <ul>
-        <li>Utilized AWS skills to manage and track usage of resources to minimize costs for the organization.</li>
-        <li>Performed regression testing for Murex software with systematic test cases.</li>
-        <li>Developed Linux bash scripts for daily tasks automation.</li>
-        <li>Utilized Control-M and Crontab for scheduling and managing automated tasks.</li>
-        <li>Investigated and debugged program crashes using Linux commands and logs.</li>
-        <li>Managed EC2 instances and RDS databases through the AWS console.</li>
-        <li>Extracted report details from Excel files using Python.</li>
-        <li>Collaborated with engineering support teams to resolve issues and bugs.</li>
-        <li>Conducted market risk analysis through the Murex system and Excel.</li>
-        <li>Enhanced skills in MxML for data manipulation and reporting within Murex.</li>
-        <li>Developed and maintained a comprehensive Data Dictionary to facilitate data integrity and accessibility.</li>
-        <li>Supported Pre-trade and Post-trade processes, ensuring compliance and accuracy in trade execution and reporting.</li>
-        <li>Provided production support to ensure system stability and performance, addressing incidents and implementing solutions promptly.</li>
-    </ul>
+    <div class="header">
+        <h1>Wiseman Hlongwane</h1>
+        <div class="contact-info">
+            Phone: 081 411 4842 | Email: hlongwanewize@gmail.com | LinkedIn: wiseman-hlongwane-24a2b6179 | GitHub: github.com/Wise2man/Rental
+        </div>
+    </div>
 
-    <h2>Technical Skills</h2>
-    <ul>
-        <li>Regression Testing</li>
-        <li>Python Programming</li>
-        <li>Linux System</li>
-        <li>Bash Scripting</li>
-        <li>AWS Services</li>
-        <li>Git Version Control – source code management</li>
-        <li>Crontab – daily tasks automation</li>
-        <li>Control-M – Job scheduling</li>
-        <li>Jira board – managing and assignment of jobs</li>
-    </ul>
+    <div class="section">
+        <h2>PROFESSIONAL SUMMARY</h2>
+        <p>A dedicated Software Engineer with expertise in Python, C++, JavaScript, Java, and cloud computing, specializing in automation, data processing, and fintech solutions. Skilled in software development, backend systems, and test automation, with hands-on experience in AWS, Murex, and SQL databases. Passionate about building scalable, data-driven applications to enhance business performance. Currently seeking a role in software development, DevOps, or cloud engineering.</p>
+    </div>
 
-    <h2>Personal Skills</h2>
-    <ul>
-        <li>Excellent communication skills, with the ability to articulate ideas clearly and listen actively to others.</li>
-        <li>Strong problem-solving skills, with a track record of identifying and resolving complex issues.</li>
-        <li>Highly adaptable, thriving in dynamic environments and quickly adjusting to new situations.</li>
-        <li>Collaborative team player, contributing to team success and fostering positive working relationships.</li>
-        <li>Exceptional time management skills, effectively prioritizing tasks, meeting deadlines, and handling multiple projects.</li>
-        <li>Meticulous attention to detail, ensuring accuracy and delivering high-quality work.</li>
-        <li>Analytical thinker, proficient in analyzing data, identifying, and drawing meaningful insights.</li>
-    </ul>
+    <div class="section">
+        <h2>TECHNICAL SKILLS</h2>
+        <div class="two-column">
+            <div class="column">
+                <ul>
+                    <li><strong>Programming Languages:</strong> Python, C++, JavaScript, Java, SQL</li>
+                    <li><strong>Web Development:</strong> HTML5, CSS3, Git, REST APIs, Django, Flask, Spring Boot</li>
+                    <li><strong>Data Science & Machine Learning:</strong> Pandas, NumPy, Scikit-learn, TensorFlow</li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li><strong>Cloud & DevOps:</strong> AWS, Docker, Jenkins, Kubernetes</li>
+                    <li><strong>Software Testing & Automation:</strong> Selenium, PyTest, JUnit</li>
+                    <li><strong>Banking & Fintech Platforms:</strong> Murex, Hogan, Incentage, Sigma</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-    <h2>Certifications</h2>
-    <ul>
-        <li>Complete JavaScript course from zero to expert by Jonas Schemdtmann (2021)</li>
-        <li>Data Scientist: CXI AFRICA (2021)</li>
-    </ul>
+    <div class="section">
+        <h2>PROFESSIONAL EXPERIENCE</h2>
+        <div class="subsection">
+            <h3>Rand Merchant Bank - Johannesburg, South Africa</h3>
+            <h4>Payment Operation Specialist | 2024 - Present</h4>
+            <ul>
+                <li>Developed automation scripts for enterprise teller solutions, reducing payment processing errors by 20%.</li>
+                <li>Optimized SWIFT payment workflows using Incentage, ensuring faster and more secure transactions.</li>
+                <li>Analyzed transaction data to identify trends and improve payment efficiency.</li>
+                <li>Monitored transactions and resolved discrepancies, enhancing fraud detection measures.</li>
+            </ul>
+            <h4>Software Tester / Engineering Support | 2023 - 2024</h4>
+            <ul>
+                <li>Automated regression testing with Selenium and PyTest, cutting manual testing time by 50%.</li>
+                <li>Developed Python scripts to extract and analyze Excel data, improving reporting accuracy.</li>
+                <li>Integrated Murex workflows for seamless data exchange between banking systems.</li>
+                <li>Managed client interactions, communicating technical updates and resolving key system issues.</li>
+            </ul>
+        </div>
 
-    <h2>Professional Experience</h2>
-    <h3>MSTDEVS (2021-2022)</h3>
-    <p>Worked collaboratively with a team of developers to design, develop, and maintain software solutions for clients. Utilized programming languages such as Python and JavaScript to develop and implement software applications. Designed and developed websites for the company’s clients using a content management system called WordPress. Performed regular maintenance and generated Google Analytics on e-commerce websites. Drafted and assisted in writing proposals.</p>
+        <div class="subsection">
+            <h3>MSTDEVS - Johannesburg, South Africa</h3>
+            <h4>Software Developer | 2021 - 2022</h4>
+            <ul>
+                <li>Designed and developed data-driven software solutions using Python and JavaScript.</li>
+                <li>Implemented data processing algorithms with Pandas and NumPy for financial data analysis.</li>
+                <li>Created dynamic visualizations with Matplotlib and Seaborn for clear data insights.</li>
+                <li>Participated in client roadshows, gathering software requirements and customizing solutions.</li>
+            </ul>
+        </div>
+    </div>
 
-    <h3>TUT (2020 - 2021)</h3>
-    <ul>
-        <li>Data Manipulation and Cleaning: Proficiency in using libraries like Pandas or NumPy to load, clean, and preprocess data from various sources.</li>
-        <li>Machine Learning Fundamentals: Understanding of supervised and unsupervised learning algorithms, model selection, and evaluation.</li>
-        <li>Data Visualization: Ability to create informative and visually appealing data visualizations using tools like Matplotlib, Seaborn, or Plotly.</li>
-        <li>Statistical Analysis: Knowledge of statistical concepts and techniques, such as hypothesis testing, regression analysis, and time series analysis.</li>
-    </ul>
+    <div class="page-break"></div>
 
-    <h2>References</h2>
-    <p>Available upon request.</p>
+    <div class="subsection">
+        <h3>Tshwane University of Technology (TUT)</h3>
+        <h4>Data Scientist | 2020 - 2021</h4>
+        <ul>
+            <li>Built machine learning models for predictive analytics in financial datasets.</li>
+            <li>Conducted statistical analysis and created interactive data visualizations.</li>
+            <li>Applied supervised and unsupervised learning algorithms to real-world datasets.</li>
+        </ul>
+    </div>
 
-    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    <div class="section">
+        <h2>EDUCATION</h2>
+        <div class="subsection">
+            <h3>Tshwane University of Technology | B.Eng. in Computer Systems Engineering | 2015 - 2019</h3>
+            <h3>Hivuyeriwile High School | Matric | 2013</h3>
+        </div>
+    </div>
 
-    <script>
-        function toggleDarkMode() {
-            const body = document.body;
-            body.classList.toggle("dark-mode");
-            if (body.classList.contains("dark-mode")) {
-                body.style.backgroundColor = "#333";
-                body.style.color = "#f4f4f4";
-            } else {
-                body.style.backgroundColor = "#f4f4f4";
-                body.style.color = "#333";
-            }
-        }
-    </script>
+    <div class="section">
+        <h2>CERTIFICATIONS</h2>
+        <ul>
+            <li>AWS Certified Solutions Architect - Associate (In Progress)</li>
+            <li>Complete JavaScript Course (Zero to Expert) - Jonas Schmedtmann, 2021</li>
+            <li>Data Scientist Certification - CXI AFRICA, 2021</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>PROJECTS & OPEN-SOURCE CONTRIBUTIONS</h2>
+        <ul>
+            <li><strong>Rental Management System</strong> - Python-based automation tool for rental property management.</li>
+            <li><strong>Coming Soon:</strong> Adding a fintech API project & cloud-based automation tool to GitHub.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>SOFT SKILLS</h2>
+        <div class="two-column">
+            <div class="column">
+                <ul>
+                    <li>Problem-Solving & Analytical Thinking</li>
+                    <li>Collaboration & Communication</li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li>Adaptability & Time Management</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>REFERENCES</h2>
+        <p>Available upon request.</p>
+    </div>
 </body>
 </html>
