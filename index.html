@@ -5,7 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wiseman Hlongwane - Resume</title>
     <style>
-        /* (Keep your existing CSS styles) */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+        .contact-info {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .section {
+            margin-bottom: 15px;
+        }
+        .section h2 {
+            background-color: #f4f4f4;
+            padding: 5px 10px;
+            color: #2c3e50;
+            font-size: 16px;
+            border-left: 4px solid #3498db;
+            margin: 10px 0;
+        }
+        .subsection {
+            margin-bottom: 10px;
+        }
+        .subsection h3 {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #2c3e50;
+        }
+        .subsection h4 {
+            margin: 5px 0;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+        .subsection p, .subsection ul {
+            margin: 5px 0;
+            font-size: 12px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .two-column {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .column {
+            width: 48%;
+        }
+        .page-break {
+            page-break-after: always;
+        }
     </style>
 </head>
 <body>
@@ -18,7 +80,7 @@
 
     <div class="section">
         <h2>PROFESSIONAL SUMMARY</h2>
-        <p>A dedicated Software Engineer with expertise in Python, C++, JavaScript, and cloud computing, specializing in <strong>payments processing, fintech solutions, and South African financial systems automation</strong>. Skilled in <strong>SWIFT, ISO 20022, SARB payment systems (e.g., NPS, PCH), and DebiCheck</strong>, with hands-on experience in AWS, Murex, and SQL databases. Proven track record in optimizing payment workflows and reducing processing errors. Passionate about building scalable, secure payment systems compliant with <strong>POPIA and FAIS</strong>. Currently seeking a role in <strong>payments engineering, fintech development, or banking systems automation</strong> in South Africa.</p>
+        <p>A dedicated Software Engineer with expertise in Python, C++, JavaScript, and AWS cloud services, specializing in South African payments processing and banking systems automation. Skilled in SWIFT, SARB payment systems (NPS, PCH, RTGS), and DebiCheck, with hands-on experience in Murex and SQL databases. Proven track record in optimizing payment workflows using cloud automation while ensuring compliance with POPIA and FAIS regulations.</p>
     </div>
 
     <div class="section">
@@ -27,17 +89,17 @@
             <div class="column">
                 <ul>
                     <li><strong>Programming Languages:</strong> Python, C++, JavaScript, Java, SQL</li>
-                    <li><strong>Payments Technologies:</strong> SWIFT (MT/MX), ISO 20022, SARB systems (NPS, PCH), DebiCheck, Real-Time Gross Settlement (RTGS), ACH</li>
-                    <li><strong>Banking Platforms:</strong> Murex, Hogan, Incentage, Sigma, SAP Payments Engine</li>
-                    <li><strong>Web Development:</strong> HTML5, CSS3, Git, REST APIs, Django, Flask, Spring Boot</li>
+                    <li><strong>South African Payments:</strong> SARB systems (NPS, PCH, RTGS), DebiCheck, EFT</li>
+                    <li><strong>Banking Platforms:</strong> Murex, Hogan, Incentage, Sigma</li>
+                    <li><strong>Cloud & DevOps:</strong> AWS (Lambda, S3, EC2), Docker</li>
                 </ul>
             </div>
             <div class="column">
                 <ul>
-                    <li><strong>Cloud & DevOps:</strong> AWS (Lambda, S3, EC2), Docker, Jenkins, Kubernetes</li>
-                    <li><strong>Data Science & Analytics:</strong> Pandas, NumPy, Scikit-learn, TensorFlow</li>
-                    <li><strong>Compliance & Security:</strong> PCI-DSS, AML, KYC, POPIA, FAIS</li>
-                    <li><strong>Software Testing & Automation:</strong> Selenium, PyTest, JUnit</li>
+                    <li><strong>Web Development:</strong> HTML5, CSS3, Git, REST APIs</li>
+                    <li><strong>Data & Analytics:</strong> Pandas, NumPy, SQL</li>
+                    <li><strong>Compliance:</strong> POPIA, FAIS, AML, KYC</li>
+                    <li><strong>Testing & Automation:</strong> Selenium, PyTest, JUnit</li>
                 </ul>
             </div>
         </div>
@@ -49,15 +111,82 @@
             <h3>Rand Merchant Bank - Johannesburg, South Africa</h3>
             <h4>Payment Operation Specialist | 2024 - Present</h4>
             <ul>
-                <li>Developed automation scripts for enterprise teller solutions, reducing payment processing errors by <strong>20%</strong> and improving straight-through processing (STP) rates for <strong>SARB-regulated systems</strong>.</li>
-                <li>Optimized <strong>SWIFT (MT/MX) payment workflows</strong> using Incentage, ensuring faster and more secure cross-border transactions.</li>
-                <li>Implemented <strong>ISO 20022</strong> message standards for domestic payments, enhancing interoperability with <strong>NPS and PCH</strong>.</li>
-                <li>Monitored transactions and resolved discrepancies, ensuring compliance with <strong>AML and POPIA</strong> regulations.</li>
+                <li>Automated payment processing using <strong>AWS Lambda</strong> for SARB-regulated systems, reducing errors by 20%</li>
+                <li>Optimized SWIFT workflows using <strong>AWS S3</strong> for secure transaction file storage</li>
+                <li>Implemented cloud-based monitoring for EFT payments using <strong>AWS EC2</strong></li>
+                <li>Developed DebiCheck authentication processes to reduce fraudulent debit orders</li>
             </ul>
-            <!-- (Keep the rest of your experience sections as-is) -->
+            
+            <h4>Software Tester / Engineering Support | 2023 - 2024</h4>
+            <ul>
+                <li>Automated testing for banking systems handling high-volume EFT payments</li>
+                <li>Built AWS-hosted reconciliation tools for PCH batch processing</li>
+                <li>Integrated Murex with SARB reporting systems for regulatory compliance</li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <h3>MSTDEVS - Johannesburg, South Africa</h3>
+            <h4>Software Developer | 2021 - 2022</h4>
+            <ul>
+                <li>Developed AWS-based financial data processing solutions</li>
+                <li>Built APIs for third-party payment providers integration</li>
+            </ul>
         </div>
     </div>
 
-    <!-- (Keep the rest of your resume structure unchanged) -->
+    <div class="subsection">
+        <h3>Tshwane University of Technology (TUT)</h3>
+        <h4>Data Scientist | 2020 - 2021</h4>
+        <ul>
+            <li>Analyzed financial datasets for pattern recognition</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>EDUCATION</h2>
+        <div class="subsection">
+            <h3>Tshwane University of Technology | B.Eng. in Computer Systems Engineering | 2015 - 2019</h3>
+            <h3>Hivuyeriwile High School | Matric | 2013</h3>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>CERTIFICATIONS</h2>
+        <ul>
+            <li>Complete JavaScript Course (Zero to Expert) - Jonas Schmedtmann, 2021</li>
+            <li>Data Scientist Certification - CXI AFRICA, 2021</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>PROJECTS</h2>
+        <ul>
+            <li><strong>Rental Management System</strong> - Python-based property management tool</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>SOFT SKILLS</h2>
+        <div class="two-column">
+            <div class="column">
+                <ul>
+                    <li>Cloud-based problem solving</li>
+                    <li>Payment system troubleshooting</li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li>Regulatory compliance focus</li>
+                    <li>Technical documentation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>REFERENCES</h2>
+        <p>Available upon request.</p>
+    </div>
 </body>
 </html>
